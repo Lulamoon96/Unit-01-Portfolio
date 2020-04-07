@@ -1,0 +1,18 @@
+Portfolio Code
+
+Transparent buttons:
+https://stackoverflow.com/questions/22672368/how-to-make-a-transparent-html-button/22672444
+
+Will probably need to float these buttons
+
+Your Name box - relative on white fixed boxed?
+
+Centering divs:
+https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page
+
+Section breaks - separator lines
+
+Linking to different sections:
+https://www.yourhtmlsource.com/text/internallinks.html
+
+Looks like we're just linking to different HTMl pages
