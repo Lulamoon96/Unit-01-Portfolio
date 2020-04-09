@@ -1,1 +1,79 @@
-{\rtf1}
+body {
+    background-image: url(../images/pipes.png);
+    background-repeat: repeat;
+}
+
+.Top {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid #cccccc;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    height: 78px;
+}
+
+.Header_Box {
+    position: fixed;
+    width: 960px;
+    margin: 0 auto;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Name {
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+.NavBar {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.NavList {
+    float: right;
+}
+
+.Active {
+    background-color:#b8e0df;
+    border-radius: 5px;
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.BioName {
+    color: white;
+    background-color: #4aaaa5;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 20px 20px 20px;
+}
+
+.Separator {
+    height: 72px;
+}
+
+
+.Wrapper {
+    background-color: white;
+    border: 1px solid #cccccc;
+    width: 920px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 0px 20px 10px 20px;
+}
+
+.About {
+    color: #4aaaa5;
+}
