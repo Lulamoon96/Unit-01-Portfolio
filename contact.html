@@ -38,8 +38,19 @@
             <h1 class="About">Contact</h1>
             <hr color="#cccccc">
             <br>
-            <h2 class="NameEntryLabel">Name</h2>
-
+            <form action="/action_page.php" method="get">
+                <label class="FormLabel" for="name">Name:</label>
+                <input class="NameForm" type="text" id="name" name="name" required>
+                <br><br>
+                <label class="FormLabel" for="email">Email:</label>
+                <input class="EmailForm" type="email" id="email" name="email" required>
+                <br><br>
+                <label class="FormLabel" for="message">Message:</label>
+                <textarea rows="15" cols="113" name="message" required></textarea>
+                <br><br>
+                <input type="submit" value="Submit">
+              </form> 
+        
         </div>
 
         <div class="Footer">
